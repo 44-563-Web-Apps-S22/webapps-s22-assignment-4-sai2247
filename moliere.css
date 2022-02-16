@@ -23,4 +23,19 @@
     border: dashed 2px rebeccapurple;
 }
 .Tartuffe{color:rgb(4, 13, 146)}
-.Elmire{color: rgb(194, 255, 80);}
+.Elmire{color: rgb(107, 161, 7);}
+
+table, th, tr, td{
+    border: solid 3px black;
+    color: rgb(24, 1, 46);
+    text-align: center;
+    border-collapse: collapse;
+    margin: 10px;
+    padding: 10px;
+}
+th{
+    background-color: rgb(3, 100, 165);
+}
+tr:nth-child(even){
+    background-color: rgb(142, 170, 145);
+}
